@@ -1,0 +1,1 @@
+ .\install.ps1 -ScoopDir 'D:\Scoop' -ScoopGlobalDir 'D:\Scoop\Portable'
