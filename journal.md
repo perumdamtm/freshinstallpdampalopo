@@ -1,0 +1,1 @@
+Freshinstall installed iwd instead of networkmanager.Ends up configuring /etc/resolv.conf; /etc/iwd/main.conf; /etc/systemd/network/* using only cat and echo because I pacman -Rs vi wanted to change it to vim, problem with dhcp of ipv4. Regular stuff of freshinstall arch, enabling bunch of systemd services (e.g iwd.services, systemd-resolved, and sysetemd.networkd.service)
