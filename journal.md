@@ -7,3 +7,5 @@ Compiled dwm, st, and surf all with gruvbox patch one way or another. Here's wha
 Default layout configured with 'loadkeys' overridden when xorg is installed. Turns out it loads different config and can be manually configured by modifying /etc/X11/xorg.conf.d/00-keyboard.conf or using 'localectl' (e.g localectl --no-convert set-x11-keymap us pc105 ,dvorak) doing the latter overwrite the former config file.
 
 Added audio and brightness capabiltity to dwm config.h.
+
+Reminds me to remove linux account timeout lock. 
