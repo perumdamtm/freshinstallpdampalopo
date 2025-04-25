@@ -13,4 +13,4 @@ There are plenty of things I need to patch if I want to use st conveniently.
 
 Added EDITOR=vim in /etc/environment and run 'xdg-mime default vim.desktop text/plain' recently so that it default to vim when editing plain text file.
 
-Recently added ufw as a frontend to iptables with common configuration for a light sprinkle of security. Added ntfs-3g package so that I can mount ntfs partition.
+Added ufw as a frontend to iptables with common configuration for a light sprinkle of security. Added ntfs-3g package so that I can mount ntfs partition. Installed ueberzug as backend to display images on terminal.
