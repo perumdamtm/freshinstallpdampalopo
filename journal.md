@@ -11,9 +11,12 @@ Default layout configured with 'loadkeys' overridden when xorg is installed. Tur
 
 Added audio and brightness capabiltity to dwm config.h. Before I can use them properly I need to install pipewere-pulse and brightnessctl respectively. Reminds me to remove linux account timeout lock. Add $HOME/user-dirs.dirs to set default directory for common user directory. When updating grub with pacman don't forget to 'grub-install' again and 'grub-mkconfig -o /boot/grub/grub.cfg'. To allow non-latin font and emoji rendering on browser or any other graphical software you need to download them manually (e.g ttf-ancient-fonts for ancient language unicode rendering). Install libnotify to allow utilizing  'notify-send'.
 
-There are plenty of things I need to patch if I want to use st conveniently.
+There are plenty of things I need to patch if I want to use st conveniently. Like columnredraw, w3m support, kitty like render, delkey, expected anysize, blinking cursor, scrollback, etc.
 
 Added EDITOR=vim in /etc/environment and run 'xdg-mime default vim.desktop text/plain' recently so that it default to vim when editing plain text file.
 
 Added ufw as a frontend to iptables with common configuration for a light sprinkle of security. Added ntfs-3g package so that I can mount ntfs partition. Installed ueberzug as backend to display images on terminal.
 
+CUPS is for printers and SANE is for scanners. Install toolbox for large dependent software like texlive.
+
+I've followed silent boot instruction. Managed to silence startx, udev hook for fsck and systemd bootlog. For grub init, it needs customized grub package from aur, which needs /boot reconfiguration, which in turn is a hassle. Mess around with plymouth and found out 'i915' module need to be placed in /etc/mkinitcpio.conf for it to run on boot for intel GPU.
