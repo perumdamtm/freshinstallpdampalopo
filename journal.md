@@ -23,4 +23,4 @@ I've followed silent boot instruction. Managed to silence startx, udev hook for 
 
 I'm still confused with fonts, plenty of unicodes and glyphs don't render completely. Just installed custor compiled cursor, placed on .icons (user) and /usr/share/icons/ (system-wide). Remember to update .config/gtk-3.0 and also add index.theme in .icons/default/ and /usr/share/icons/default/.
 
-Installed 'lf' with prefious config, just need to chmod to some, preview for images works with small configuration in /.local/bin/ and installation of ueberzug (or at leaast the equivalent of it as ueberzug is unmaintained now). The headscratcher is icons because some glyphs are missing.
+Installed 'lf' with previous config, just need to chmod to some, preview for images works with small configuration in /.local/bin/ and installation of ueberzug (or at leaast the equivalent of it as ueberzug is unmaintained now). The headscratcher is icons because some glyphs are missing.
