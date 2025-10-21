@@ -4,7 +4,7 @@ Freshinstall installed iwd instead of networkmanager. Ends up configuring /etc/r
 
 Added new user put on wheel group. Configured /etc/systemd/resolved.conf.d/*. Use '$ systemctl edit getty@tty1.service --drop-in=autologin.conf' to add getty@tty1.service.d/autologin.conf for autologin without login manager (should not be added manually).  Configured ~/.xinitrc to have setxkbmap -variant dvorak; xset r66; xset r rate 191; xset s off -dpms. Added .bash_alias
 
-Compiled dwm, st, and surf all with gruvbox patch one way or another. Here's what I've learnt, 'makepkg' to run modified arch user
+To compile c programs, I need libx11, libxinerama, gcc and make. Compiled dwm, st, and surf all with gruvbox patch one way or another. Here's what I've learnt, 'makepkg' to run modified arch user
 repo build and 'make' to compile C programs. Checked and modified /etc/hosts when ethernet is botched. Gives up on compiling browser and instead stick with bin version of it. Got problems with public gpg key, it turns out aur use user key and not the one on pacman, I still need to learn more of it.
 
 Default layout configured with 'loadkeys' overridden when xorg is installed. Turns out it loads different config and can be manually configured by modifying /etc/X11/xorg.conf.d/00-keyboard.conf or using 'localectl' (e.g localectl --no-convert set-x11-keymap us pc105 ,dvorak) doing the latter overwrite the former config file.
