@@ -26,3 +26,5 @@ I'm still confused with fonts, plenty of unicodes and glyphs don't render comple
 Installed 'lf' with previous config, just need to chmod some script, preview for images works with small configuration in /.local/bin/ and installation of ueberzug (or at leaast the equivalent of it as ueberzug is unmaintained now). The headscratcher is icons because some glyphs are missing.
 
 Configured zram and loaded zswap with udev rules, along with all it's bells and whistle.
+
+Broke my /dev/sdaX. Tried arch-chrooting, didn't work. fsck fixed it. Also fixed time drift with 'timedatectl' and 'hwclock'.
