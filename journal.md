@@ -30,3 +30,5 @@ Configured zram and loaded zswap with udev rules, along with all it's bells and 
 Broke my /dev/sdaX. Tried arch-chrooting, didn't work. fsck fixed it. Also fixed time drift with 'timedatectl' and 'hwclock'.
 
 Figured out how to set my """"outdated"""" GPU 820m, it's "not supported" in 'nvidia-smi'. But when configured correctly using full offload with xorg it can work """"perfectly"""". Must have command to run steam game is 'PROTON_USE_WINED3D=1 PROTON_NO_D3D11=1 %command%'. Just followed nvidida OPTIMUS to run NVIDIA only for graphic processing, of course legacy driver is necessary to correctly lay everything in place.
+
+Now mpv borked
